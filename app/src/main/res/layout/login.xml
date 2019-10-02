@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edstyle"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginRight="20dp"
+    android:drawableStart="@drawable/ic_username"
+    android:drawableLeft="@drawable/ic_username"
+    android:drawablePadding="10dp"
+    android:hint="Username"
+    android:textColorHint="@android:color/white"
+    android:textColor="@android:color/white"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:inputType="text"
+    android:id="@+id/login_username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edstyle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawableLeft="@drawable/ic_pass"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/login_pass"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginRight="20dp"
+    android:text="Login"
+    android:textColor="@android:color/background_dark"
+    android:background="@android:color/white"
+    android:id="@+id/loginbutton"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don’t have an account? SIGN UP"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/lg_reg"/>
+
+</LinearLayout>
