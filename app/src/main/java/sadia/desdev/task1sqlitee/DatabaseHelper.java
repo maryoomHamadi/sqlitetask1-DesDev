@@ -53,6 +53,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
         else
             return false;
-
     }
+
+    public Cursor getinformations(SQLiteDatabase db)
+    {
+        String[] proj={col_1, col_2, col_3};
+        Cursor cursor=db.query(Table_name ,proj, null, null, null, null ,null);
+
+        return cursor;
+    }
+
 }
